@@ -10,3 +10,13 @@
     margin: auto;
 
 }
+#character{
+    width: 20px;
+    height: 50px;
+    background-color: green;
+    position: relative;
+    top: 150px;
+}
+.animate{
+    animation: jump 0.3s linear;
+}
