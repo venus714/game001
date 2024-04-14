@@ -21,3 +21,15 @@ var checkDead = setInterval(function() {
         document.getElementById("scoreSpan").innerHTML = Math.floor(counter/100);
     }
 }, 10);
+document.addEventListener("keydown", function(event) {
+    
+    if (event.keyCode === 32) {
+       
+        jump();
+    }
+});
+
+document.addEventListener("touchstart", function() {
+    
+    jump();
+});
