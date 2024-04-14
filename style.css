@@ -2,12 +2,14 @@
     padding: 0;
     margin: 0;
     overflow-x: hidden;
+    background-color: bisque;
 }
 .game{
     width: 500px;
-    height: 200px;
+    height: 300px;
     border: 1px solid black;
     margin: auto;
+    margin-top: 4rem;
 
 }
 #character{
@@ -41,4 +43,10 @@
 }
 p{
     text-align: center;
+}
+.game-title {
+    color: #0a0c0e; /* Change color to your preference */
+    font-size: 36px; /* Adjust font size as needed */
+    text-align: center; /* Center align the text */
+    margin-top: 40px; /* Add margin from the top */
 }
